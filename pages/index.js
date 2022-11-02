@@ -1,23 +1,27 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
-    </div>
-  )
-}
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<ol><li>Punkt 1 listy numerowanej ma dwa podpunkty numerowane.
+<ul>
+<ol start="1">
+<li>Ten podpunkt listy numerowanej ma dwa wypunktowania:
+<ul type="square">
+<li>pierwsze wypunktowanie,</li>
+<li>drugie wypunktowanie.</li>
+</ul>
+</li>
+<li>Ten podpunkt listy numerowanej nie ma podpunktów.</li>
+</ol>
+</ul>
+<li>Punkt 2 listy numerowanej ma podpunkty:
+<ul type="circle">
+<li>podpunkt 1,</li>
+<li>podpunkt 2.</li>
+</ul>
+</li>
+<li>Punkt 3 listy numerowanej nie ma podpunktów.</li>
+</ol>
+</body>
+</html>       
